@@ -1,18 +1,19 @@
 .main {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 400px;
 }
-.slide-left {
-    transform: translateX(-100%);
+.slide-right {
+    transform: translateX(100%);
 }
 #onenext {
-    width: 12px;
-    height: 12px;
-    margin-top:3px ;   
+    width: 16px;
+    height: 16px;
+    margin-top:1px ;   
 }
 footer {
-    padding-top: 60px;
-    margin-top: 80px;
+    padding-top: 30px;
+    margin-top: 50px;
     margin-left: 48%;
     font-size: 18px; 
     display: flex;
@@ -25,4 +26,15 @@ footer {
     border-radius: 50%;
     margin-right: 5px;
     margin-top: 5px;
+}
+
+.me2 {
+    margin-left: 30px;
+    margin-top: 110px;
+}
+a {
+    text-decoration-color: #fccd94;
+    color: #fccd94;
+    margin-top: 10px;
+    margin-left: 10px;
 }

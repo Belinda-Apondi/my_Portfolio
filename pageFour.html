@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page4.css">
+</head>
+<body style="
+    background: radial-gradient(1091px at 106.5% 111.5%, rgb(250, 246, 213) 0.1%, rgb(218, 147, 93) 42.2%, rgb(137, 86, 67) 74.3%, rgb(67, 39, 39) 100.2%);
+    overflow-x: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+
+">
+     <h1 style="
+    
+        color: #fccd94;
+        margin-left: 200px;
+        margin-top: 80px;
+        margin-bottom: 10px;
+        font-size: 50px;
+        font-family: Times New Roman;
+    ">
+        Contact Me:
+    </h1>
+     <div style="margin-top: 30px " class="main">
+        <div class="me2">
+            <a href="index.html" class="next_arrow2">
+                 <img  class="nextone" src="images/wooden-up-arrow-button-wooden-icon-png.jpg" alt="arrow" style="
+                    width: 50px;
+                    transform: rotate(180deg)    
+                ">
+            </a>
+        </div>
+        <div> 
+            <div style="display:flex">
+                <div>
+                    <img src="images/images (1).jpeg" alt="" width="60px">
+                </div >
+                <a href="tel=+254701644037" target="_blank">
+                            +254701644037
+                </a>
+            </div>        
+            <br> 
+            <br>
+            <div style="display:flex">
+                <div>
+                    <img src="images/download.png" alt="" width="60px">
+                </div >
+                <a href="https://www.linkedin.com/in/belindaapondi/" target="_blank">
+                www.linkedin.com/in/ belindaapondi 
+                </a>
+            </div>
+            <br>
+            <br>
+            <div style="display:flex">
+                <div>
+                    <img src="images/images.jpeg" alt="" width="60px">
+                </div >
+                <a href="https://github.com/Belinda-Apondi" target="_blank">
+                            https://github.com/Belinda-Apondi 
+                </a>
+            </div>
+            <br>
+            <br>
+            <div style="display:flex">
+                <div>
+                    <img src="images/hey.png" alt="" width="60px">
+                </div >
+                <a href="mailto:mboyaapondi@gmail.com" target="_blank">
+                    mboyaapondi@gmail.com 
+                </a>
+            </div>
+        </div>
+    </div>  
+
+    <footer>
+        <a href="index.html">
+            <div class="one"></div>
+        </a> 
+        <a href="pageTwo.html">
+            <div class="one"></div>
+        </a>
+        <a href="pageThree.html">
+            <div class="one"></div>
+        </a>
+        <a href="pageFour.html">
+            <div class="one" id="onenext"></div>
+        </a> 
+    
+    </footer>
+    <script>
+        let arrowOne = document.querySelector(".me2");
+    arrowOne.addEventListener("click", function(e) {
+    e.preventDefault();
+    document.body.classList.add('slide-right');
+    setTimeout(function() {
+        window.location.href ="pageThree.html";
+    }, 10);
+});
+    </script>
+</body>
+</html>

@@ -25,21 +25,20 @@ body {
 }
 .nextone {
     width: 50px;
-    transform: rotate(180deg) 
-    
+    transform: rotate(180deg);  
 }
 .next {
     width: 50px;
     
 }
 .next_arrow {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .me1{
     margin-top: 120px;  
 }
 .me2{
-    margin-top: 100px;  
+    margin-top: 10px;  
 }
 p {
     width: 700px;
