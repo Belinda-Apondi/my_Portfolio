@@ -1,8 +1,16 @@
 body {
-    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    background: radial-gradient(1091px at 106.5% 111.5%, rgb(250, 246, 213) 0.1%, rgb(218, 147, 93) 42.2%, rgb(137, 86, 67) 74.3%, rgb(67, 39, 39) 100.2%);
+    overflow-x: hidden;
+    position: relative;
+    transition: transform 0.2s ease;
+
 }
-img{
+.slide-left {
+    transform: translateX(-100%);
+}
+.myName{
     width: 500px;
+    
 }
 .aboutMe {
     display: flex;
@@ -12,12 +20,56 @@ img{
 button{
     display: block ;
     margin: 30px auto;
+    padding: 20px 60px;
+    background-color: #fccd94;
+    border-style: none;
+    color: #35230e;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(214, 161, 99);
+    
 }
  footer {
-    text-align: center;
-    margin: 30px 0px;
+    padding-top: 20px;
+    margin-left: 48%;
+    font-size: 18px; 
+    display: flex;
+      
 }
+ 
 header {
     text-align: center;
+    color: #fccd94;
 }
-
+.title {
+    color: #fad9b1;
+    font-size: 16px;
+    margin: 0px;
+    border-bottom: 1px solid #fad9b1;
+    padding-bottom: 10px;
+}
+.one {
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.next {
+    width: 50px;
+    
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+.next_arrow {
+    margin-left: 60px;
+    margin-top: 50px;
+}
+#onenext {
+    width: 12px;
+    height: 12px;
+    margin-top:3px ;   
+}
