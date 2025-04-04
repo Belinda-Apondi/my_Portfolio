@@ -4,32 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="pageTwo.css">
+    <link rel="stylesheet" href="page4.css">
 </head>
-<body>
-    <h1>
-        My Work
+<body style="
+    background: radial-gradient(1091px at 106.5% 111.5%, rgb(250, 246, 213) 0.1%, rgb(218, 147, 93) 42.2%, rgb(137, 86, 67) 74.3%, rgb(67, 39, 39) 100.2%);
+    overflow-x: hidden;
+    position: relative;
+    transition: transform 0.2s ease;
+
+">
+     <h1 style="
+    
+        color: #fccd94;
+        padding: 30px 0px 0px 80px;
+        margin-left: 200px;
+        margin-top: 80px;
+        font-size: 50px;
+        font-family: Times New Roman;
+    ">
+        Contact Me:
     </h1>
-    <div class="me">
-        <div class="me2">
-            <a href="index.html" class="next_arrow2">
-                <img  class="nextone" src="images/wooden-up-arrow-button-wooden-icon-png.jpg" alt="arrow">
-            </a>
-        </div>    
-       
-        <div class="myself">
-            <p >
-                I am a passionate tech enthusiast with a Bachelor's degree in Electrical and Electronics Engineering and a strong foundation in software development. I hold certifications in Web Development, AI Career Essentials, and Stakeholder Management. Currently, I am expanding my expertise in Artificial Intelligence for Software Engineering. With a blend of engineering logic and coding creativity, I enjoy solving real-world problems through innovative digital solutions. I’m always eager to learn, grow, and contribute to impactful tech projects. Whether it's building user-friendly web applications or exploring intelligent systems, I aim to bridge technology and meaningful user experiences.
-            </p>
-        </div>
-        <div class="me1">
-            <a href="pageFour.html" class="next_arrow">
-                <img  class="next" src="images/wooden-up-arrow-button-wooden-icon-png.jpg" alt="arrow">
-            </a>
-        </div>
- 
+    <div class="main">
+        <div style="margin-top: 150px ">
+            <div class="me2">
+                <a href="index.html" class="next_arrow2">
+                    <img  class="nextone" src="images/wooden-up-arrow-button-wooden-icon-png.jpg" alt="arrow" style="
+                    width: 50px;
+                    transform: rotate(180deg)    
+                ">
+                </a>
+            </div>
+        
+            <div>
+
+            </div>
+        </div>  
     </div>
-    <script src="pageThree.js"></script>
-   
+    <footer>
+        <div class="one"></div>
+        <div class="one"></div>
+        <div class="one"  id="onenext"></div>
+    
+    </footer>
+    <script>
+        let arrowOne = document.querySelector(".me2");
+    arrowOne.addEventListener("click", function(e) {
+    e.preventDefault();
+    document.body.classList.add('slide-left');
+    setTimeout(function() {
+        window.location.href = "pageTwo.html";
+    }, 10);
+});
+    </script>
 </body>
 </html>

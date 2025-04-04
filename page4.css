@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+.slide-left {
+    transform: translateX(-100%);
+}
+#onenext {
+    width: 12px;
+    height: 12px;
+    margin-top:3px ;   
+}
+footer {
+    padding-top: 60px;
+    margin-top: 80px;
+    margin-left: 48%;
+    font-size: 18px; 
+    display: flex;
+      
+}
+.one {
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 5px;
+}
