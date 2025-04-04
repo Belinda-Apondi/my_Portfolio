@@ -2,7 +2,7 @@ body {
     background: radial-gradient(1091px at 106.5% 111.5%, rgb(250, 246, 213) 0.1%, rgb(218, 147, 93) 42.2%, rgb(137, 86, 67) 74.3%, rgb(67, 39, 39) 100.2%);
     overflow-x: hidden;
     position: relative;
-    transition: transform 0.2s ease;
+    transition: transform 0.5s ease;
 
 }
 .slide-left {
@@ -64,7 +64,7 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.next_arrow {
+.me1 {
     margin-left: 60px;
     margin-top: 50px;
 }
